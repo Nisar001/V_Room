@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Mainpage from './Mainpage';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Mainpage/>
-  );
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
